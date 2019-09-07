@@ -15,21 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Library Include="src\libbgi.a">
-      <Filter>Файлы ресурсов</Filter>
-    </Library>
-    <Library Include="src\bgi.lib">
-      <Filter>Файлы ресурсов</Filter>
-    </Library>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="src\The_Gem_Puzzle.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\graphics.h">
+    <ClInclude Include="src\3rd-party\graphics.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="src\3rd-party\libbgi.a">
+      <Filter>Файлы ресурсов</Filter>
+    </Library>
+    <Library Include="src\3rd-party\bgi.lib">
+      <Filter>Файлы ресурсов</Filter>
+    </Library>
   </ItemGroup>
 </Project>

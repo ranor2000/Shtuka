@@ -6,7 +6,7 @@
 #include <stdio.h> 
 #include <vector>
 #include <string>
-#include "graphics.h"
+#include "3rd-party/graphics.h"
 using namespace std;
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 struct ba { int tx; int ty; char* s = new char[255]; };

@@ -123,14 +123,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Library Include="src\bgi.lib" />
-    <Library Include="src\libbgi.a" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="src\graphics.h" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="src\The_Gem_Puzzle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\3rd-party\graphics.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="src\3rd-party\bgi.lib" />
+    <Library Include="src\3rd-party\libbgi.a" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
